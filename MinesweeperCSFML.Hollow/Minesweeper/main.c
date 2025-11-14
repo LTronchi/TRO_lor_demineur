@@ -9,7 +9,7 @@
 int main(void)
 {
     // Define the video mode and create the window
-	sfVideoMode mode = { WIDTH, HEIGHT,33 };
+    sfVideoMode mode = { WIDTH, HEIGHT, 32 };
     sfRenderWindow* window;
     sfEvent event; // Event variable to handle events
 
@@ -82,7 +82,7 @@ int main(void)
                         // Reveal the cell
                         int result = CellReveal(grid, cellPos);
                         if (result == FAILURE) {
-                            printf("Game Over! You hit a bomb !\n");
+                            printf("Game Over! You hit a bomb!\n");
                             gameState = FAILURE;
                         }
                         else if (result == SUCCESS) {

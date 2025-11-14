@@ -7,7 +7,7 @@ Cell* CellCreate(sfVector2f size, sfVector2f pos, sfColor color)
 {
 	// Initialize all cell properties
 	// ...
-	sfFont_createFromFile("Resources/Roboto-Regular.ttf")
+
 	Cell* newCell = (Cell*)malloc(sizeof(Cell));
 	if (newCell == NULL) {
 		return NULL;
@@ -20,6 +20,11 @@ Cell* CellCreate(sfVector2f size, sfVector2f pos, sfColor color)
 	sfRectangleShape_setFillColor(newCell->shape, color);
 	sfRectangleShape_setOutlineColor(newCell->shape, sfBlack);
 	sfRectangleShape_setOutlineThickness(newCell->shape, 1.0f);
+	sfFont* newFont = sfFont_createFromFile("Resources/tahoma.ttf");
+	if (!newFont)
+	{
+		return NULL;
+	}
 
 	// Initialisation du texte - PROBLÈME PRINCIPAL ICI
 	newCell->text = sfText_create();
@@ -380,3 +385,4 @@ void GridDestroy(Grid* grid)
 		globalFont = NULL;
 	}
 }
+
