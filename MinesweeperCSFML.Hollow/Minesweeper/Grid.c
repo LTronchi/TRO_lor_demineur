@@ -1,4 +1,4 @@
-#include <SFML/Graphics.h>
+ï»¿#include <SFML/Graphics.h>
 
 #include "Grid.h"
 
@@ -7,7 +7,7 @@ Cell* CellCreate(sfVector2f size, sfVector2f pos, sfColor color)
 {
 	// Initialize all cell properties
 	// ...
-
+	sfFont_createFromFile("Resources/Roboto-Regular.ttf")
 	Cell* newCell = (Cell*)malloc(sizeof(Cell));
 	if (newCell == NULL) {
 		return NULL;
@@ -21,10 +21,10 @@ Cell* CellCreate(sfVector2f size, sfVector2f pos, sfColor color)
 	sfRectangleShape_setOutlineColor(newCell->shape, sfBlack);
 	sfRectangleShape_setOutlineThickness(newCell->shape, 1.0f);
 
-	// Initialisation du texte - PROBLÈME PRINCIPAL ICI
+	// Initialisation du texte - PROBLÃˆME PRINCIPAL ICI
 	newCell->text = sfText_create();
 
-	// VOUS DEVEZ AVOIR UNE POLICE CHARGÉE QUELQUE PART !
+	// VOUS DEVEZ AVOIR UNE POLICE CHARGÃ‰E QUELQUE PART !
 	// Ajoutez cette variable globale en haut de votre fichier :
 	// static sfFont* font = NULL;
 
@@ -46,7 +46,7 @@ Cell* CellCreate(sfVector2f size, sfVector2f pos, sfColor color)
 	};
 	sfText_setPosition(newCell->text, textPos);
 
-	// Initialisation des propriétés
+	// Initialisation des propriÃ©tÃ©s
 	newCell->bDiscovered = false;
 	newCell->bFlagged = false;
 	newCell->bPlanted = false;
@@ -67,12 +67,12 @@ void CellDraw(Cell* cell, sfRenderWindow* window)
 			sfRenderWindow_drawText(window, cell->text, NULL);
 		}
 		else if (cell->explosiveNeighbor > 0) {
-			// Numéro
+			// NumÃ©ro
 			char numberStr[2];
 			snprintf(numberStr, sizeof(numberStr), "%d", cell->explosiveNeighbor);
 			sfText_setString(cell->text, numberStr);
 
-			// Couleurs différentes selon le numéro
+			// Couleurs diffÃ©rentes selon le numÃ©ro
 			switch (cell->explosiveNeighbor) {
 			case 1: sfText_setColor(cell->text, sfBlue); break;
 			case 2: sfText_setColor(cell->text, sfGreen); break;
@@ -141,18 +141,18 @@ int CellReveal(Grid* grid, sfVector2i cellGridPos)
 
 	// If the cell is completely empty (explosiveNeighbor == 0), start the "flood fill" (reveal neighbors) algorithm
 	if (cell->explosiveNeighbor == 0) {
-		// Révéler récursivement les 8 cellules voisines
+		// RÃ©vÃ©ler rÃ©cursivement les 8 cellules voisines
 		for (int dx = -1; dx <= 1; dx++) {
 			for (int dy = -1; dy <= 1; dy++) {
 				int newX = cellGridPos.x + dx;
 				int newY = cellGridPos.y + dy;
 
-				// Vérifier les limites de la grille
+				// VÃ©rifier les limites de la grille
 				if (newX >= 0 && newX < GRID_SIZE && newY >= 0 && newY < GRID_SIZE) {
 					// Ne pas rappeler la cellule actuelle
 					if (!(dx == 0 && dy == 0)) {
 						Cell* neighbor = grid->cells[newX][newY];
-						// Ne révéler que les cellules non découvertes et non drapeautées
+						// Ne rÃ©vÃ©ler que les cellules non dÃ©couvertes et non drapeautÃ©es
 						if (!neighbor->bDiscovered && !neighbor->bFlagged) {
 							CellReveal(grid, (sfVector2i) { newX, newY });
 						}
@@ -166,12 +166,12 @@ int CellReveal(Grid* grid, sfVector2i cellGridPos)
 	grid->discoveredCellCount++;
 
 	// If all none planted cells are discovered, terminate the game (return SUCCESS)
-	// Pour cela, vous aurez besoin de connaître le nombre total de bombes
-	// Vous devrez peut-être modifier GridCreate() ou GridPlantBomb() pour stocker bombCount dans la structure Grid
+	// Pour cela, vous aurez besoin de connaÃ®tre le nombre total de bombes
+	// Vous devrez peut-Ãªtre modifier GridCreate() ou GridPlantBomb() pour stocker bombCount dans la structure Grid
 	int totalCells = GRID_SIZE * GRID_SIZE;
 	int bombCount = 0;
 
-	// Compter les bombes (à faire une fois au début et stocker dans la structure Grid)
+	// Compter les bombes (Ã  faire une fois au dÃ©but et stocker dans la structure Grid)
 	for (int i = 0; i < GRID_SIZE; i++) {
 		for (int j = 0; j < GRID_SIZE; j++) {
 			if (grid->cells[i][j]->bPlanted) {
@@ -180,7 +180,7 @@ int CellReveal(Grid* grid, sfVector2i cellGridPos)
 		}
 	}
 
-	// Vérifier si toutes les cellules non-minées sont découvertes
+	// VÃ©rifier si toutes les cellules non-minÃ©es sont dÃ©couvertes
 	if (grid->discoveredCellCount >= (totalCells - bombCount)) {
 		return SUCCESS;
 	}
@@ -231,7 +231,7 @@ void CellFlag(Grid* grid, sfVector2i cellGridPos)
 		sfRectangleShape_setFillColor(cell->shape, sfColor_fromRGB(255, 100, 100));
 	}
 	else {
-		// Retour à la couleur normale non découverte
+		// Retour Ã  la couleur normale non dÃ©couverte
 		sfRectangleShape_setFillColor(cell->shape, sfColor_fromRGB(120, 120, 120));
 	}
 }
@@ -274,7 +274,7 @@ Grid* GridCreate()
 		for (int y = 0; y < GRID_SIZE; y++) {
 			sfVector2f cellSize = { 30.0f, 30.0f };
 			sfVector2f cellPos = { x * 30.0f, y * 30.0f };
-			sfColor cellColor = sfColor_fromRGB(120, 120, 120); // Plus foncé
+			sfColor cellColor = sfColor_fromRGB(120, 120, 120); // Plus foncÃ©
 
 			newGrid->cells[x][y] = CellCreate(cellSize, cellPos, cellColor);
 
@@ -374,7 +374,7 @@ void GridDestroy(Grid* grid)
 	}
 	free(grid);
 
-	// Libérer la police quand la dernière grille est détruite
+	// LibÃ©rer la police quand la derniÃ¨re grille est dÃ©truite
 	if (globalFont != NULL) {
 		sfFont_destroy(globalFont);
 		globalFont = NULL;

@@ -4,3 +4,6 @@ D:\Projets\2025\Minesweeper\Minesweeper\x64\Debug\Minesweeper.vcxproj.cppwinrt_c
 C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\MinesweeperCSFML.Hollow\Minesweeper\x64\Debug\Minesweeper.vcxproj.MdMergeInputs.cache
 C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\MinesweeperCSFML.Hollow\Minesweeper\x64\Debug\Minesweeper.vcxproj.cppwinrt_plat.cache
 C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\MinesweeperCSFML.Hollow\Minesweeper\x64\Debug\Minesweeper.vcxproj.cppwinrt_comp.cache
+C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\Demineur\MinesweeperCSFML.Hollow\Minesweeper\x64\Debug\Minesweeper.vcxproj.MdMergeInputs.cache
+C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\Demineur\MinesweeperCSFML.Hollow\Minesweeper\x64\Debug\Minesweeper.vcxproj.cppwinrt_plat.cache
+C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\Demineur\MinesweeperCSFML.Hollow\Minesweeper\x64\Debug\Minesweeper.vcxproj.cppwinrt_comp.cache

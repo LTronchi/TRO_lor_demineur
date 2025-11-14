@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\",
+  "WorkspaceRootPath": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\basics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\basics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\HowTo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\HowTo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\USERS\\LOREN\\DESKTOP\\GAMING CAMPUS\\PREPA\\GTECH\\DEMINEUR\\MINESWEEPERCSFML.HOLLOW\\CSFML\\INCLUDE\\SFML\\GRAPHICS\\FONT.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:CSFML\\INCLUDE\\SFML\\GRAPHICS\\FONT.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\basics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\basics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\HowTo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC690414-EF1E-4EA9-AB83-7C255969CD4C}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\HowTo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +30,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Grid.c",
-              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\Grid.c",
+              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\Grid.c",
               "RelativeDocumentMoniker": "Minesweeper\\Grid.c",
-              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\Grid.c",
+              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\Grid.c",
               "RelativeToolTip": "Minesweeper\\Grid.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0BAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-11T15:19:18.336Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Font.h",
+              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\CSFML\\include\\SFML\\Graphics\\Font.h",
+              "RelativeDocumentMoniker": "CSFML\\include\\SFML\\Graphics\\Font.h",
+              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\CSFML\\include\\SFML\\Graphics\\Font.h",
+              "RelativeToolTip": "CSFML\\include\\SFML\\Graphics\\Font.h",
+              "ViewState": "AgIAABQAAAAAAAAAAAAawCYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-14T17:29:54.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "basics.h",
-              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\basics.h",
+              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\basics.h",
               "RelativeDocumentMoniker": "Minesweeper\\basics.h",
-              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\basics.h",
+              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\basics.h",
               "RelativeToolTip": "Minesweeper\\basics.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -58,27 +76,26 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\main.c",
+              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\main.c",
               "RelativeDocumentMoniker": "Minesweeper\\main.c",
-              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\main.c",
+              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\main.c",
               "RelativeToolTip": "Minesweeper\\main.c",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-11T15:26:46.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HowTo.c",
-              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\HowTo.c",
+              "DocumentMoniker": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\HowTo.c",
               "RelativeDocumentMoniker": "Minesweeper\\HowTo.c",
-              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\MinesweeperCSFML.Hollow\\Minesweeper\\HowTo.c",
+              "ToolTip": "C:\\Users\\Loren\\Desktop\\Gaming Campus\\Prepa\\GTECH\\Demineur\\MinesweeperCSFML.Hollow\\Minesweeper\\HowTo.c",
               "RelativeToolTip": "Minesweeper\\HowTo.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-11T15:26:45.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T15:26:45.736Z"
             }
           ]
         }
