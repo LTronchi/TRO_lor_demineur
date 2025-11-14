@@ -20,11 +20,12 @@ Cell* CellCreate(sfVector2f size, sfVector2f pos, sfColor color)
 	sfRectangleShape_setFillColor(newCell->shape, color);
 	sfRectangleShape_setOutlineColor(newCell->shape, sfBlack);
 	sfRectangleShape_setOutlineThickness(newCell->shape, 1.0f);
-	sfFont* newFont = sfFont_createFromFile("Resources/tahoma.ttf");
-	if (!newFont)
+	globalFont = sfFont_createFromFile("Resources/tahoma.ttf");
+	if (!newfont)	
 	{
 		return NULL;
 	}
+
 
 	// Initialisation du texte - PROBLÈME PRINCIPAL ICI
 	newCell->text = sfText_create();

@@ -1,3 +1,2 @@
 ﻿  Grid.c
-C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\Demineur\MinesweeperCSFML.Hollow\Minesweeper\Grid.c(341,13): warning C4101: 'mousePos' : variable locale non référencée
-  Minesweeper.vcxproj -> C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\Demineur\MinesweeperCSFML.Hollow\x64\Debug\Minesweeper.exe
+C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\Demineur\MinesweeperCSFML.Hollow\Minesweeper\Grid.c(24,7): error C2065: 'newfont' : identificateur non déclaré
