@@ -1,0 +1,5 @@
+﻿  Grid.c
+  main.c
+C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\MinesweeperCSFML.Hollow\Minesweeper\Grid.c(336,13): warning C4101: 'mousePos' : variable locale non référencée
+  Génération de code en cours...
+  Minesweeper.vcxproj -> C:\Users\Loren\Desktop\Gaming Campus\Prepa\GTECH\MinesweeperCSFML.Hollow\x64\Debug\Minesweeper.exe
